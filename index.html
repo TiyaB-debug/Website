@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/Image9.png">
+    <script src="./scripts/scripts.js" defer></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <div>
+        <div class="navbar-placeholder"></div>
+        <nav class="navbar flex">
+            <a href="#home"><img src="./assets/Image9.png" alt="logo" class="animation"></a>
+            <div class="nav-menu flex">
+                <a href="#home" class="animation">Home</a>
+                <a href="#about" class="animation">About</a>
+                <a href="#experience" class="animation">Experience</a>
+                <a href="#work" class="animation">Projects</a>
+                <a href="#contact" class="animation">Contact</a>
+            </div>
+            <form action="https://www.linkedin.com/in/tiya-bordia-158036288" target="_blank">
+                <button type="submit" class="btn nav-btn animation">Linkedin</button>
+            </form>
+            
+
+        </nav>
+    </div>
+
+
+    <!-- hero basically the intro -->
+    <div class="hero flex" id="home">
+        <img src="./assets/hero-image.png" alt="web dev">
+        <h1><span class="text-effect">I'm Tiya Bordia,</span> A CS student at Rutgers</h1>
+        <a href="./assets/Tiya_Resume (7).pdf" class="hero-resume animation" target="_blank" rel="noopener noreferrer">Resume</a>
+    </div>
+
+    <!-- about -->
+    <section class="container flex" id="about">
+        <div class="container-title">
+            <h2>About Me</h2>
+            <img src="./assets/decoration-heading.png" alt="decoration">
+        </div>
+        <div class="about-sections flex">
+            <div class="about-left flex">
+                <img src="./assets/dev-pic.png" alt="web dev">
+            </div>
+            <div class="about-right flex">
+                <p>Double majoring in Computer Science and Data Science. Currently, expanding my knowledge in AWS and Generative AI</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="container flex" id="experience">
+        <div class="container-title">
+            <h2>Experience</h2>
+            <img src="./assets/decoration-heading.png" alt="decoration">
+        </div>
+        <div class="grid-container">
+            <div class="services-format flex animation">
+                <h3>01</h3>
+                <h2 class="text-effect">Blueprint Frontend Fellowship</h2>
+                <p>Utilizing Html, CSS, JavaScript, React, & more to create incredible interfaces. Developed a React-based web application to track stock market information.</p>
+            </div>
+            <div class="services-format flex animation">
+                <h3>02</h3>
+                <h2 class="text-effect">Blueprint Product Management Fellowship</h2>
+                <p>Utilizing Figma to create a blueprint of a app</p></p>
+            </div>
+        </div>
+    </div>
+    <div class="about-skills">
+        <div>
+            <h3>Languages</h3>
+            <div class="about-skill flex animation">
+                <p>HTML & CSS</p>
+                <hr style="width: 80%;">
+            </div>
+            <div class="about-skill flex animation">
+                <p>Java</p>
+                <hr style="width: 60%;">
+            </div>
+            <div class="about-skill flex animation">
+                <p>JavaScript & Node.js</p>
+                <hr style="width: 40%;">
+            </div>
+            <div class="about-skill flex animation">
+                <p>Python</p>
+                <hr style="width: 40%;">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- projects -->
+    <main class="container flex" id="work">
+        <div class="container-title">
+            <h2>Projects</h2>
+            <img src="./assets/decoration-heading.png" alt="decoration">
+        </div>
+        <div class="grid-container">
+            
+        </div>
+    </main>
+
+    <!-- contact -->
+    <section class="container flex" id="contact">
+        <div class="container-title">
+            <h2>Contact</h2>
+            <img src="./assets/decoration-heading.png" alt="decoration">
+        </div>
+        <div class="contact-section flex">
+            <div class="contact-left flex">
+                <h2 class="text-effect">Let's Talk</h2>
+                <p>Contact me about employment or projects</p>
+                <div class="contact-details flex">
+                    <div class="contact-detail flex">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>tiyabordia06@gmail.com</p>
+                    </div>
+                    <div class="contact-detail flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>USA</p>
+                    </div>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/tiyabordia06@gmail.com" method="POST" class="contact-right flex">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <label for="message">Enter a message</label>
+                <textarea name="message" id="message" placeholder="Leave a message"></textarea>
+            
+                <button type="submit" class="btn animation">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="flex">
+        <div class="footer-top flex">
+            <div class="footer-top-left">
+                <img src="./assets/Image9.png" alt="logo">
+            </div>
+            <div class="footer-top-right">
+                <p>Just a student want to learn more! :)</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>©2024 by Tiya Bordia.</p>
+        </div>
+    </footer>
+</body>
+</html>
